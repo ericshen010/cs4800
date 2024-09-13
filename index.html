@@ -23,7 +23,7 @@
 
     <script>
         function fetchData() {
-            fetch('https://cs4800-44d1147c0a2c.herokuapp.com/')
+            fetch('https://cs4800-44d1147c0a2c.herokuapp.com/api/data')
                 .then(response => response.json())
                 .then(data => {
                     let table = '<table><tr><th>Name</th><th>Age</th><th>Email</th></tr>';
